@@ -42,6 +42,7 @@ enum DeviceState {
 
 class Application {
 public:
+    // 单例模式
     static Application& GetInstance() {
         static Application instance;
         return instance;
